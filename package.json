@@ -1,0 +1,29 @@
+{
+    "name": "py-run",
+    "version": "1.0.0",
+    "description": "CLI tool to run Python scripts in isolated environments with automatic dependency management",
+    "main": "index.js",
+    "bin": {
+        "py-run": "./index.js"
+    },
+    "scripts": {
+        "start": "node index.js"
+    },
+    "keywords": [
+        "python",
+        "virtual-environment",
+        "cli",
+        "dependencies",
+        "automation"
+    ],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "chalk": "^4.1.2",
+        "ora": "^5.4.1",
+        "boxen": "^5.1.2"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.0"
+    }
+}
